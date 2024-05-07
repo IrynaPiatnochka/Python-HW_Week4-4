@@ -7,6 +7,6 @@ class Book():
         self.genre = genre
         self.publication_date = publication_date
         self.is_available = True
-        
+       
     def get_info(self):
         return f'{self.title}, {self.author}, {self.isbn}, {self.genre}, {self.publication_date}.'
